@@ -20,7 +20,7 @@ vagrant init bento/ubuntu-18.04
 
 vagrant up
 
-- Modification du fichier VagrantFile généré :
+- Modification du fichier VagrantFile généré (voir VagrantFile sur le répo) :
 
 Vagrant.configure("2") do |config|
 
