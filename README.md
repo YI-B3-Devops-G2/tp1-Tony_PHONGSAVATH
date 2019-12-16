@@ -50,6 +50,10 @@ end
 
 - Recréation d'une VM avec la prise en compte du script "bootstrap.sh" et du fichier "VagrantFile" --> vagrant up
 
+---------------------------------------------------------------------------------
+
+--> VM créée avec 1 GB de RAM et la bonne version de Ubuntu Server (18.04.3 LTS)
+
 --> Update automatique des paquets + installation automatique des paquets (nodejs v12, openssh-server, nginx) + modification automatique de index.nginx-debian.html
 
 --> Connexion en SSH OK
