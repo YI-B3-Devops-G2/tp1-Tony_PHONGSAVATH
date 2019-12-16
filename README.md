@@ -32,6 +32,7 @@ end
 
 - Suppression de la VM pour voir si la démarche est OK --> vagrant destroy
 
-- Recréation d'une VM avec la prise en compte du script et du fichier VagrantFile --> vagrant up
+- Recréation d'une VM avec la prise en compte du script "bootstrap.sh" et du fichier "VagrantFile" --> vagrant up
 
---> Connexion OK en SSH puis à l'interface web avec le bon index.html
+--> Connexion en SSH OK
+--> Connexion en HTTP OK
