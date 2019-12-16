@@ -56,6 +56,6 @@ end
 
 --> Update automatique des paquets + installation automatique des paquets (nodejs v12, openssh-server, nginx) + modification automatique de index.nginx-debian.html
 
---> Connexion en SSH OK
+--> Connexion en SSH OK (ssh vagrant@127.0.0.1 -p 2220, MDP : vagrant)
 
---> Connexion en HTTP OK avec les bonnes modifications dans l'index (B3 Devops - TP 1)
+--> Connexion en HTTP OK avec les bonnes modifications dans l'index (127.0.0.1:8080)
