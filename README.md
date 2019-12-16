@@ -44,4 +44,4 @@ end
 
 --> Connexion en SSH OK
 
---> Connexion en HTTP OK
+--> Connexion en HTTP OK avec les bonnes modifications dans l'index (B3 Devops - TP 1)
