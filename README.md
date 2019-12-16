@@ -42,7 +42,7 @@ end
 
 - Recréation d'une VM avec la prise en compte du script "bootstrap.sh" et du fichier "VagrantFile" --> vagrant up
 
--- Installation automatique des nodejs@12, 
+--> Update automatique des paquets + installation automatique des paquets (nodejs v12, openssh-server, nginx) + modification automatique de index.nginx-debian.html
 
 --> Connexion en SSH OK
 
