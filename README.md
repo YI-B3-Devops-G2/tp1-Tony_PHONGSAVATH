@@ -38,9 +38,11 @@ end
 
 - Création du fichier bootstrap.sh (voir dans la répo "bootstrap.sh")
 
-- Suppression de la VM pour voir si la démarche est OK --> vagrant destroy
+- Suppression de la VM pour voir si la démarche est OK --> vagrant destroy -y
 
 - Recréation d'une VM avec la prise en compte du script "bootstrap.sh" et du fichier "VagrantFile" --> vagrant up
+
+-- Installation automatique des nodejs@12, 
 
 --> Connexion en SSH OK
 
