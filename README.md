@@ -5,3 +5,33 @@
 mail : tony.phongsavath@ynov.com
 
 github_username : tonyphg
+
+## Démarche
+
+- Installation de vagrant ttps://www.vagrantup.com/
+
+- Lancement de PowerShell
+
+- Saisie des commandes suivantes sur PowerShell : 
+
+vagrant init bento/ubuntu-18.04
+
+vagrant up
+
+- Modification du fichier VagrantFile généré :
+
+Vagrant.configure("2") do |config|
+ config.vm.box = "bento/ubuntu-18.04"
+ config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+ config.vm.network "forwarded_port", guest: 22, host: 2220, host_ip: "127.0.0.1"
+ config.vm.network "forwarded_port", guest: 443, host: 4343, host_ip: "127.0.0.1"
+ config.vm.provision "shell", path: "bootstrap.sh"
+end
+
+- Création du fichier bootstrap.sh (voir dans la répo "bootstrap.sh")
+
+- Suppression de la VM pour voir si la démarche est OK --> vagrant destroy
+
+- Recréation d'une VM avec la prise en compte du script et du fichier VagrantFile --> vagrant up
+
+--> Connexion OK en SSH puis à l'interface web avec le bon index.html
