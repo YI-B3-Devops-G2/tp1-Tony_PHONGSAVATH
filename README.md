@@ -8,7 +8,7 @@ github_username : tonyphg
 
 ## Démarche
 
-- Installation de vagrant ttps://www.vagrantup.com/
+- Installation de vagrant https://www.vagrantup.com/
 
 - Lancement de PowerShell
 
