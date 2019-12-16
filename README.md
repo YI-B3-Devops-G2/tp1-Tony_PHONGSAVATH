@@ -35,4 +35,5 @@ end
 - Recréation d'une VM avec la prise en compte du script "bootstrap.sh" et du fichier "VagrantFile" --> vagrant up
 
 --> Connexion en SSH OK
+
 --> Connexion en HTTP OK
