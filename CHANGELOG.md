@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Modification de CHANGELOG.md
 - Modification de bootstrap.sh
 
-### Removed
+## [1.0.1] - 2019-12-17
 
-- Section about "changelog" vs "CHANGELOG".
+### Added
+
+- Ajout du fichier VagrantFile dans la répo
+
+### Changed
+
+- Modification du fichier CHANGELOG.md
